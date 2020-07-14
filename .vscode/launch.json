@@ -2,14 +2,14 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Origin",
+            "name": "origin",
             "request": "launch",
             "type": "dart",
             "program": "project/lib/main.dart",
             "preLaunchTask": "origin"
         },
         {
-            "name": "Next",
+            "name": "next",
             "request": "launch",
             "type": "dart",
             "program": "project/lib/main.dart",
