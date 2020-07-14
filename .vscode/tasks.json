@@ -1,0 +1,15 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "origin",
+        "type": "shell",
+        "command": "sh scripts/start.sh origin"
+      },
+      {
+        "label": "next",
+        "type": "shell",
+        "command": "sh scripts/start.sh next"
+      }
+    ]
+  }
