@@ -14,19 +14,19 @@ if [ "$1" = "origin" ]; then
 fi
 
 if [ "$1" = "next" ]; then
-    mkdir project/next/android
-    mkdir project/next/go
-    mkdir project/next/ios
-    mkdir project/next/linux
-    mkdir project/next/macos
-    mkdir project/next/web
+    mkdir project/android
+    mkdir project/go
+    mkdir project/ios
+    mkdir project/linux
+    mkdir project/macos
+    mkdir project/web
 
-    cp -rf runners/android_next/. project/android/
-    cp -rf runners/go_next/. project/go/
-    cp -rf runners/ios_next/. project/ios/
-    cp -rf runners/linux_next/. project/linux/
-    cp -rf runners/macos_next/. project/macos
-    cp -rf runners/web_next/. project/web
+    cp -rf runners/next/android/. project/android/
+    cp -rf runners/next/go/. project/go/
+    cp -rf runners/next/ios/. project/ios/
+    cp -rf runners/next/linux/. project/linux/
+    cp -rf runners/next/macos/. project/macos
+    cp -rf runners/next/web/. project/web
 
     exit $?
 fi
